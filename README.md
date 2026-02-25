@@ -38,5 +38,5 @@ Optimización de flujos hospitalarios.
 # MODELOS:
 1. Duracion de la estancia (pacientes existentes): Regresion, Gradient Boosting o XG Boost
 2. Prediccion ocupacion (pacientes nuevos): SARIMA
-3. Dashboard de gestion: 
+3. Dashboard de gestion: Streamlit, Plotly Dash
 4. Sistema apoyo decisiones: 
