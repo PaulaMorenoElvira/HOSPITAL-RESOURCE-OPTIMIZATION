@@ -32,8 +32,7 @@ Recomendaciones de priorización.
 Optimización de flujos hospitalarios.
 
 # BASES DE DATOS:
-1. https://www.kaggle.com/datasets/nehaprabhavalkar/av-healthcare-analytics-ii/data
-2. https://www.kaggle.com/c/prediccin-de-estancia-hospitalaria-2020-1/data
+ https://www.kaggle.com/c/prediccin-de-estancia-hospitalaria-2020-1/data
 
 # MODELOS:
 1. Duracion de la estancia (pacientes existentes): Regresion, Gradient Boosting o XG Boost
