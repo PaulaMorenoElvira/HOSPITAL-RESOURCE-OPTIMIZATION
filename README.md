@@ -36,7 +36,7 @@ Optimización de flujos hospitalarios.
  2. https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data
 
 # MODELOS:
-1. Duracion de la estancia (pacientes existentes): Regresion, Gradient Boosting o XG Boost
-2. Prediccion ocupacion (pacientes nuevos): SARIMA
+1. Duracion de la estancia (pacientes existentes): CatBoostRegressor
+2. Prediccion ocupacion (pacientes nuevos): RandomForestRegressor o LGBMRegressor
 3. Dashboard de gestion: Streamlit, Plotly Dash
 4. Sistema apoyo decisiones: 
