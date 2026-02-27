@@ -35,6 +35,7 @@ Optimización de flujos hospitalarios.
  1. https://www.kaggle.com/c/prediccin-de-estancia-hospitalaria-2020-1/data
  2. https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data
  3. https://www.kaggle.com/code/alobde/hospital-admission-duraci-n-de-ocupaci-n-de-cama (PROBAR EL SABADO)
+ 4. PROBAR TAMBIENel excel (BASEDEDATOS(PROBAR))
 
 # MODELOS:
 1. Duracion de la estancia (pacientes existentes): CatBoostRegressor
