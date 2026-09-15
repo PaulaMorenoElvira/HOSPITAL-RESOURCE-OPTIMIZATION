@@ -1,44 +1,43 @@
 # HOSPITAL-RESOURCE-OPTIMIZATION
-Optimización inteligente del uso de camas y recursos hospitalarios- Hackaton UCIII
+Smart optimization of hospital bed and resource usage – UC3M Hackathon
 
-La gestión de camas y recursos hospitalarios es compleja y frecuentemente ineficiente. La falta de
-predicción provoca saturación, retrasos en ingresos y altas subóptimas.¿Podemos usar datos hospitalarios
-para predecir demanda y optimizar recursos de forma inteligente?
-Antecedentes
-Decisiones reactivas en lugar de predictivas.
-Alta variabilidad en estancias.
-Falta de herramientas de apoyo a la decisión.
-Impacto directo en calidad asistencial.
-Objetivo del reto
-Diseñar un sistema predictivo que ayude a anticipar ocupación, duración de estancia y necesidades de
-recursos hospitalarios.
+Hospital bed and resource management is complex and often inefficient. The lack of prediction leads to overcrowding, admission delays, and suboptimal discharges. Can we use hospital data to predict demand and intelligently optimize resources?
 
-Posibles soluciones
+Background
 
-1. Predicción de duración de estancia
-Modelos basados en diagnóstico, edad, comorbilidades.
-Predicción individual de alta.
+Reactive decisions instead of predictive ones.
+High variability in length of stay.
+Lack of decision-support tools.
+Direct impact on quality of care.
 
-3. Modelos de ocupación
-Predicción de demanda a corto plazo.
-Simulación de escenarios.
+Challenge objective
+Design a predictive system that helps anticipate occupancy, length of stay, and hospital resource needs
 
-5. Dashboard de gestión
-Visualización en tiempo real.
-Alertas de saturación.
+Possible solutions
 
-7. Sistema de apoyo a decisiones
-Recomendaciones de priorización.
-Optimización de flujos hospitalarios.
+1. Length-of-stay prediction
+Models based on diagnosis, age, comorbidities.
+Individual discharge prediction.
+
+3. Occupancy models
+Short-term demand prediction.
+Scenario simulation.
+
+5. Management dashboard
+Real-time visualization.
+Overcrowding alerts
+
+7. Decision-support system
+Prioritization recommendations.
+Hospital flow optimization.
 
 # BASES DE DATOS:
  1. https://www.kaggle.com/c/prediccin-de-estancia-hospitalaria-2020-1/data
  2. https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data
- 3. https://www.kaggle.com/code/alobde/hospital-admission-duraci-n-de-ocupaci-n-de-cama (PROBAR EL SABADO)
- 4. PROBAR TAMBIEN el excel (BASEDATOS(PROBAR))
+ 3. https://www.kaggle.com/code/alobde/hospital-admission-duraci-n-de-ocupaci-n-de-cama 
 
 # MODELOS:
-1. Duracion de la estancia (pacientes existentes): CatBoostRegressor
-2. Prediccion ocupacion (pacientes nuevos): RandomForestRegressor o LGBMRegressor
-3. Dashboard de gestion: Streamlit, Plotly Dash
-4. Sistema apoyo decisiones: 
+1. Length of stay (existing patients): CatBoostRegressor
+2. Occupancy prediction (new patients): RandomForestRegressor or LGBMRegressor
+3. Management dashboard: Streamlit, Plotly Dash
+
