@@ -31,12 +31,12 @@ Overcrowding alerts
 Prioritization recommendations.
 Hospital flow optimization.
 
-# BASES DE DATOS:
+# DATABASES:
  1. https://www.kaggle.com/c/prediccin-de-estancia-hospitalaria-2020-1/data
  2. https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data
  3. https://www.kaggle.com/code/alobde/hospital-admission-duraci-n-de-ocupaci-n-de-cama 
 
-# MODELOS:
+# MODELS:
 1. Length of stay (existing patients): CatBoostRegressor
 2. Occupancy prediction (new patients): RandomForestRegressor or LGBMRegressor
 3. Management dashboard: Streamlit, Plotly Dash
